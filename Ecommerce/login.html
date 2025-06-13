@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #eeebeb, #f9f6f6);
+            margin: 0;
+            padding: 0;
+        }
+        .login-container {
+            width: 100%;
+            max-width: 400px;
+            background-color: white;
+            margin: 100px auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        h2 {
+            text-align: center;
+            color: salmon;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 12px 15px;
+            margin: 10px 0 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: salmon;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #ff7f7f;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 15px;
+            color: #555;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="#" method="post">
+            <label for="username">Username</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter username" required><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter password" required><br>
+            <input type="submit" value="Login">
+        </form>
+        <div class="footer">
+            <p>Forgot your password? <a href="#">Click here or Signup</a></p>
+        </div>
+    </div>
+</body>
+</html>
