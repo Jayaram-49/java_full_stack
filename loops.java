@@ -8,12 +8,14 @@ for(i=0;i<10;i++){
 System.out.println("Bright IT Career");
 }
 */
+ 
 /* 2).
 i=1;
 while(i<=20){
 System.out.println(i);
 i++;
 }*/
+ 
 /* 3).
 System.out.println("enter a:");
 int a=s.nextInt();
@@ -35,6 +37,7 @@ System.out.println(n+"  is Even");
 else{
 System.out.println(n+" is Odd");
 }*/
+ 
 /* 5).
 System.out.println("Enter a:");
 int a=s.nextInt();
@@ -51,18 +54,21 @@ System.out.println("b is large");
 else{
 System.out.println("c is large");
 }*/
+ 
 /* 6). 
 i=10;
 while(i<=100){
 System.out.println(i);
 i++;
 }*/
+ 
 /* 7).
 i=1;
 do{
 System.out.println(i);
 i++;
 }while(i<=10);*/
+ 
 /* 8).
 int sum=0,rem;
 System.out.println("enter n:");
@@ -79,6 +85,7 @@ System.out.println("Given number is Armstrong number");
 else{
 System.out.println("Given number is not  Armstrong number");
 }*/
+ 
 /* 10).
 int rem=0,rev=0;
 System.out.println("enter n:");
@@ -107,6 +114,7 @@ break;
 case 1: System.out.println(n+" is odd");
 break;
 }*/
+ 
 /* 12).
 System.out.println("enter g:");
 String g=s.next();
@@ -126,6 +134,7 @@ break;
 default:
 System.out.println("Invalid");
 }*/
+ 
 /* 13).
 int a=10,b=20,c=30;
 if(a>b){
@@ -138,8 +147,6 @@ System.out.println(b+" is large");
 else{
 System.out.println(c+" is large");
 }*/
-
-
 
 }
 }
