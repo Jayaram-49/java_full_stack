@@ -198,7 +198,7 @@ System.out.println();
 }
 }*/
 
-class Patterns20 {
+/*class Patterns20 {
 public static void main(String args[]){
 int n;
 Scanner s1=new Scanner(System.in);
@@ -214,6 +214,6 @@ System.out.print(" ");
 }
 }
 System.out.println();
-}
+}*/
 }
 }
