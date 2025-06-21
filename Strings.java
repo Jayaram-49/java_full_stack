@@ -41,3 +41,21 @@ String s5="a+b";
 System.out.println(s3.matches(s5));
 }
 }
+Output:
+Jaya ram Thota
+8
+Jaya
+2
+false
+true
+false
+false
+ram
+Jaya Ram
+Jaya
+ram
+12
+12
+JAYA RAM
+jaya ram
+falses
