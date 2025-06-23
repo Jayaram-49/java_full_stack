@@ -166,7 +166,7 @@ int[] a={7,2,9,4,1,5};
 findMinMax(a);
 }
 }*/
-
+/*
 class ReverseArr{
 public static void reverse(int[] arr){
 int start=0,end=arr.length-1;
@@ -185,6 +185,20 @@ for(int i=0;i<a.length;i++){
 System.out.print(a[i]);
 }
 }
-}
+}*/
+/* 10).
+class CommonEle{
+public static void main(String[]args){
+int[]a={1,2,3,4,5,6};
+int[]b={2,4,5,6,7,8};
+System.out.print("Common elements:");
+for(int i=0;i<a.length;i++){
+for(int j=0;j<b.length;j++){
+if(a[i]==b[j]){
+System.out.print(a[i]+" ");
+}}}
+}}*/
+
+
 
 
